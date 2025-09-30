@@ -1,10 +1,10 @@
-# Remote-Framework
+# Remote-Template
 ## Overview
-Remote-Framework is a python script template that is designed to streamline the process of making your own local telivision remote.  
+Remote-Template is a python script template that is designed to streamline the process of making your own local telivision remote.  
 It is essentialy a collection of existing functions, significantly simplifying and shrinking the workload.  
   
 The script is divided into clearly labeled sections, making it easy to add your own functions.  
-Remote-Framework utilizes http requests to control the device. This works for some platforms, but not all. However, you can easily edit this 
+Remote-Template utilizes http requests to control the device. This works for some platforms, but not all. However, you can easily edit this 
 
 # Documentation
 ## Menu functions
@@ -58,7 +58,7 @@ request(192.168.68.###, apps)
 ```
 
 ## Creating the welcome menu
-Remote-Framework comes with a pre-built fully functional welcome menu and does not need editing to work.  
+Remote-Template comes with a pre-built fully functional welcome menu and does not need editing to work.  
 To create your own welcome menu, you can utilize the menu functions to draw your welcome menu:  
 ```
 def print_welcome():
@@ -71,7 +71,7 @@ def print_welcome():
 ```
 
 ## Creating the main menu
-Remote-Framework comes with a pre-built fully functional main menu and does not need editing to work.  
+Remote-Template comes with a pre-built fully functional main menu and does not need editing to work.  
 To create your own main menu, you can utilize the menu functions to draw your welcome menu:  
 ```
 def draw_menu():
@@ -93,7 +93,7 @@ __________                       __
 ```
 
 ## Editing and adding more options
-Remote-Framework comes with two prebuilt functional menu options, and does not need editing to work.  
+Remote-Template comes with two prebuilt functional menu options, and does not need editing to work.  
 The default looks like this:  
 ```
 def select_option(ip):
